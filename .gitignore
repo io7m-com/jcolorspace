@@ -1,0 +1,16 @@
+bin
+*.blend.caj
+*.blend.caj.log
+*.blend.caj.tmp
+.checkstyle
+.classpath
+.fslckout
+.idea
+*.iml
+*.ipr
+*.iws
+out
+pom.xml.versionsBackup
+.project
+.settings
+target
