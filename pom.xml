@@ -13,7 +13,7 @@
 
   <groupId>com.io7m.jcolorspace</groupId>
   <artifactId>com.io7m.jcolorspace</artifactId>
-  <version>0.0.1</version>
+  <version>0.0.2</version>
 
   <packaging>pom</packaging>
   <name>com.io7m.jcolorspace</name>
@@ -23,12 +23,14 @@
   <modules>
     <module>com.io7m.jcolorspace.tests</module>
     <module>com.io7m.jcolorspace.core</module>
+    <module>com.io7m.jcolorspace.demo</module>
   </modules>
 
   <properties>
     <io7m.api.previousVersion>0.0.1-SNAPSHOT</io7m.api.previousVersion>
     <jqwik.version>1.6.4</jqwik.version>
     <junit.version>5.8.2</junit.version>
+    <javafx.version>18-ea+1</javafx.version>
   </properties>
 
   <licenses>
@@ -140,6 +142,26 @@
         <groupId>com.io7m.junreachable</groupId>
         <artifactId>com.io7m.junreachable.core</artifactId>
         <version>3.0.0</version>
+      </dependency>
+      <dependency>
+        <groupId>org.openjfx</groupId>
+        <artifactId>javafx-graphics</artifactId>
+        <version>${javafx.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.openjfx</groupId>
+        <artifactId>javafx-fxml</artifactId>
+        <version>${javafx.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.openjfx</groupId>
+        <artifactId>javafx-controls</artifactId>
+        <version>${javafx.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.openjfx</groupId>
+        <artifactId>javafx-base</artifactId>
+        <version>${javafx.version}</version>
       </dependency>
     </dependencies>
   </dependencyManagement>

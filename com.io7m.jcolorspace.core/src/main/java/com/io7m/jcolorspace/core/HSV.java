@@ -202,25 +202,44 @@ public final class HSV
      */
 
     final var chroma = saturation * value;
-    final var sector = (int) Math.round(hue * 6.0);
-    final var x = chroma * (1.0 - (double) Math.abs((sector % 2) - 1));
+    final var sector = hue * 6.0;
+    final var x = chroma * (1.0 - Math.abs((sector % 2.0) - 1.0));
+    final var m = value - chroma;
 
-    if (sector < 1) {
-      return PVector4D.of(chroma, x, 0.0, hsv.w());
+    if (sector < 1.0) {
+      final var r = chroma + m;
+      final var g = x + m;
+      final var b = 0.0 + m;
+      return PVector4D.of(r, g, b, hsv.w());
     }
-    if (sector < 2) {
-      return PVector4D.of(x, chroma, 0.0, hsv.w());
+    if (sector < 2.0) {
+      final var r = x + m;
+      final var g = chroma + m;
+      final var b = 0.0 + m;
+      return PVector4D.of(r, g, b, hsv.w());
     }
-    if (sector < 3) {
-      return PVector4D.of(0.0, chroma, x, hsv.w());
+    if (sector < 3.0) {
+      final var r = 0.0 + m;
+      final var g = chroma + m;
+      final var b = x + m;
+      return PVector4D.of(r, g, b, hsv.w());
     }
-    if (sector < 4) {
-      return PVector4D.of(0.0, x, chroma, hsv.w());
+    if (sector < 4.0) {
+      final var r = 0.0 + m;
+      final var g = x + m;
+      final var b = chroma + m;
+      return PVector4D.of(r, g, b, hsv.w());
     }
-    if (sector < 5) {
-      return PVector4D.of(x, 0.0, chroma, hsv.w());
+    if (sector < 5.0) {
+      final var r = x + m;
+      final var g = 0.0 + m;
+      final var b = chroma + m;
+      return PVector4D.of(r, g, b, hsv.w());
     }
 
-    return PVector4D.of(chroma, 0.0, x, hsv.w());
+    final var r = chroma + m;
+    final var g = 0.0 + m;
+    final var b = x + m;
+    return PVector4D.of(r, g, b, hsv.w());
   }
 }

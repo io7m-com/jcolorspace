@@ -12,20 +12,38 @@
     <version>0.0.2</version>
   </parent>
 
-  <artifactId>com.io7m.jcolorspace.core</artifactId>
+  <artifactId>com.io7m.jcolorspace.demo</artifactId>
 
-  <name>com.io7m.jcolorspace.core</name>
-  <description>Color space conversions (Core)</description>
+  <name>com.io7m.jcolorspace.demo</name>
+  <description>Color space conversions (Demo)</description>
   <url>https://www.io7m.com/software/jcolorspace</url>
+
+  <properties>
+    <mdep.analyze.skip>true</mdep.analyze.skip>
+  </properties>
 
   <dependencies>
     <dependency>
-      <groupId>com.io7m.jtensors</groupId>
-      <artifactId>com.io7m.jtensors.core</artifactId>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>com.io7m.jcolorspace.core</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-graphics</artifactId>
     </dependency>
     <dependency>
-      <groupId>com.io7m.junreachable</groupId>
-      <artifactId>com.io7m.junreachable.core</artifactId>
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-fxml</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-controls</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-base</artifactId>
     </dependency>
 
     <dependency>
