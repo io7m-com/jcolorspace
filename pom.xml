@@ -13,7 +13,7 @@
 
   <groupId>com.io7m.jcolorspace</groupId>
   <artifactId>com.io7m.jcolorspace</artifactId>
-  <version>0.0.2</version>
+  <version>0.0.3</version>
 
   <packaging>pom</packaging>
   <name>com.io7m.jcolorspace</name>
@@ -141,7 +141,7 @@
       <dependency>
         <groupId>com.io7m.junreachable</groupId>
         <artifactId>com.io7m.junreachable.core</artifactId>
-        <version>3.0.0</version>
+        <version>4.0.0</version>
       </dependency>
       <dependency>
         <groupId>org.openjfx</groupId>
