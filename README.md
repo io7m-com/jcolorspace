@@ -2,10 +2,10 @@ jcolorspace
 ===
 
 [![Maven Central](https://img.shields.io/maven-central/v/com.io7m.jcolorspace/com.io7m.jcolorspace.svg?style=flat-square)](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.io7m.jcolorspace%22)
-[![Maven Central (snapshot)](https://img.shields.io/nexus/s/https/s01.oss.sonatype.org/com.io7m.jcolorspace/com.io7m.jcolorspace.svg?style=flat-square)](https://s01.oss.sonatype.org/content/repositories/snapshots/com/io7m/jcolorspace/)
+[![Maven Central (snapshot)](https://img.shields.io/nexus/s/com.io7m.jcolorspace/com.io7m.jcolorspace?server=https%3A%2F%2Fs01.oss.sonatype.org&style=flat-square)](https://s01.oss.sonatype.org/content/repositories/snapshots/com/io7m/jcolorspace/)
 [![Codecov](https://img.shields.io/codecov/c/github/io7m/jcolorspace.svg?style=flat-square)](https://codecov.io/gh/io7m/jcolorspace)
 
-![jcolorspace](./src/site/resources/jcolorspace.jpg?raw=true)
+![com.io7m.jcolorspace](./src/site/resources/jcolorspace.jpg?raw=true)
 
 | JVM | Platform | Status |
 |-----|----------|--------|
