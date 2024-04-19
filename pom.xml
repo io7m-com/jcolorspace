@@ -31,7 +31,7 @@
     <io7m.java.targetJavaVersion>21</io7m.java.targetJavaVersion>
     <jqwik.version>1.8.2</jqwik.version>
     <junit.version>5.10.1</junit.version>
-    <javafx.version>21.0.1</javafx.version>
+    <javafx.version>21.0.3</javafx.version>
   </properties>
 
   <licenses>
