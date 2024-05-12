@@ -9,7 +9,7 @@
   <parent>
     <artifactId>com.io7m.jcolorspace</artifactId>
     <groupId>com.io7m.jcolorspace</groupId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
   </parent>
 
   <artifactId>com.io7m.jcolorspace.tests</artifactId>
