@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.control.Slider?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.HBox?>
@@ -8,13 +9,14 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.shape.Rectangle?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.io7m.jcolorspace.demo.ColorDemo">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.io7m.jcolorspace.demo.ColorDemo">
    <padding>
       <Insets bottom="8.0" left="16.0" right="16.0" top="8.0" />
    </padding>
    <children>
       <HBox alignment="CENTER_LEFT" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="32.0">
          <children>
+            <Label maxWidth="-Infinity" minWidth="-Infinity" prefWidth="32.0" text="R" />
             <Slider fx:id="sliderR" HBox.hgrow="ALWAYS" />
             <Region maxWidth="-Infinity" minWidth="-Infinity" prefWidth="16.0" />
             <TextField fx:id="fieldR" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="24.0" prefWidth="64.0" />
@@ -22,6 +24,7 @@
       </HBox>
       <HBox alignment="CENTER_LEFT" layoutX="18.0" layoutY="18.0" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="32.0">
          <children>
+            <Label maxWidth="-Infinity" minWidth="-Infinity" prefWidth="32.0" text="G" />
             <Slider fx:id="sliderG" HBox.hgrow="ALWAYS" />
             <Region maxWidth="-Infinity" minWidth="-Infinity" prefWidth="16.0" />
             <TextField fx:id="fieldG" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="24.0" prefWidth="64.0" />
@@ -29,6 +32,7 @@
       </HBox>
       <HBox alignment="CENTER_LEFT" layoutX="18.0" layoutY="42.0" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="32.0">
          <children>
+            <Label maxWidth="-Infinity" minWidth="-Infinity" prefWidth="32.0" text="B" />
             <Slider fx:id="sliderB" HBox.hgrow="ALWAYS" />
             <Region maxWidth="-Infinity" minWidth="-Infinity" prefWidth="16.0" />
             <TextField fx:id="fieldB" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="24.0" prefWidth="64.0" />
@@ -39,6 +43,7 @@
       <Region maxHeight="-Infinity" minHeight="-Infinity" prefHeight="16.0" />
       <HBox alignment="CENTER_LEFT" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="32.0">
          <children>
+            <Label maxWidth="-Infinity" minWidth="-Infinity" prefWidth="32.0" text="H" />
             <Slider fx:id="sliderH" HBox.hgrow="ALWAYS" />
             <Region maxWidth="-Infinity" minWidth="-Infinity" prefWidth="16.0" />
             <TextField fx:id="fieldH" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="24.0" prefWidth="64.0" />
@@ -46,6 +51,7 @@
       </HBox>
       <HBox alignment="CENTER_LEFT" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="32.0">
          <children>
+            <Label maxWidth="-Infinity" minWidth="-Infinity" prefWidth="32.0" text="S" />
             <Slider fx:id="sliderS" HBox.hgrow="ALWAYS" />
             <Region maxWidth="-Infinity" minWidth="-Infinity" prefWidth="16.0" />
             <TextField fx:id="fieldS" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="24.0" prefWidth="64.0" />
@@ -53,6 +59,7 @@
       </HBox>
       <HBox alignment="CENTER_LEFT" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="32.0">
          <children>
+            <Label maxWidth="-Infinity" minWidth="-Infinity" prefWidth="32.0" text="V" />
             <Slider fx:id="sliderV" HBox.hgrow="ALWAYS" />
             <Region maxWidth="-Infinity" minWidth="-Infinity" prefWidth="16.0" />
             <TextField fx:id="fieldV" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="24.0" prefWidth="64.0" />

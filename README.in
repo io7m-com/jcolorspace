@@ -1,0 +1,24 @@
+
+## jcolorspace
+
+The `jcolorspace` package provides a set of functions for converting between
+color spaces.
+
+## Features
+
+* HSV/RGB conversion functions.
+* Phantom-typed color vectors for static safety.
+* High coverage test suite.
+* [OSGi-ready](https://www.osgi.org/)
+* [JPMS-ready](https://en.wikipedia.org/wiki/Java_Platform_Module_System)
+* ISC license.
+
+## Usage
+
+Use the `HSV` and `RGB` classes to convert between color vectors in different
+color spaces.
+
+A [demo application](com.io7m.jcolorspace.demo/src/main/java/com/io7m/jcolorspace/demo/ColorDemoMain.java)
+is included that demonstrates the results of color conversions.
+
+![ColorDemo](./src/site/resources/colorDemo.png?raw=true)
