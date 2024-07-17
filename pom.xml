@@ -34,7 +34,7 @@
     <!-- Third-party dependencies. -->
     <jqwik.version>1.9.0</jqwik.version>
     <junit.version>5.10.3</junit.version>
-    <javafx.version>21.0.3</javafx.version>
+    <javafx.version>21.0.4</javafx.version>
   </properties>
 
   <licenses>
